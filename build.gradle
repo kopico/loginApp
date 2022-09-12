@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'myApp.App'
+
+repositories { 
+    mavenCentral() 
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    implementation 'org.mongodb:mongo-java-driver:3.12.10'
+}
