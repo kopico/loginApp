@@ -8,7 +8,7 @@ public class Home extends JPanel {
 
     public Home(String username) {
         this.username = username;
-        System.out.println("Building home pane");
+
         JPanel pane = new JPanel();
         JTextPane textPane = new JTextPane();
         textPane.add("Welcome! " + username, new JLabel());
