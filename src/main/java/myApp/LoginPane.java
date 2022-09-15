@@ -86,7 +86,7 @@ public class LoginPane extends JPanel implements KeyListener, ActionListener {
     String errorMessage = "";
 
     public boolean loginStart() {
-        String uri = "mongodb+srv://mongo_admin:mongo_admin@classone.n8wst7b.mongodb.net/?retryWrites=true&w=majority";
+        String uri = "";
         try {
             mongoClient = MongoClients.create(uri);
             database = mongoClient.getDatabase("user_accounts");
